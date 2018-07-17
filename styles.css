@@ -1,0 +1,19 @@
+.header {
+  background: pink;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid aquamarine;
+}
+
+.sidebar{
+ max-width: 25%;
+ background: linear-gradient(#dcf3f5, grey);
+ border: 10px dotted;
+ display: inline-block;
+}
+
+.main{
+  background: bisque;
+  border: 10px solid black;
+  display: inline-block;
+}
