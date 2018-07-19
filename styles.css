@@ -1,19 +1,39 @@
-.header {
-  background: pink;
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid aquamarine;
+body { 
+       background: yellow;   
+       text-align: center;
 }
 
-.sidebar{
- max-width: 25%;
- background: linear-gradient(#dcf3f5, grey);
- border: 10px dotted;
- display: inline-block;
+h2{
+      color: white;
+      font-size: 100px;
+      -webkit-animation:colorchange 100s infinite alternate;
 }
 
-.main{
-  background: bisque;
-  border: 10px solid black;
-  display: inline-block;
+
+@-webkit-keyframes colorchange {
+   0% {
+      color: pink;
+
+    }
+   10% {
+      color: blue;
+    }
+   20% {
+      color: white;
+   }
+    
+   
 }
+
+
+table{
+        margin:auto;
+        border: 40px solid green;
+        padding: 50px;
+        margin-bottom: 50px;
+}
+
+
+</style>
+</head>
+<body>
